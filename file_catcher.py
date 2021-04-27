@@ -13,7 +13,7 @@ def get_file_list(root):
             if file_name.find('.py') > 0 or file_name.find('.db') > 0 or file_name.find('.json') > 0:
                 continue
             file_path = path.replace("\\", "/")
-            if '.mdb' in file_name:
+            if '.br' in file_name:
                 if '_jp' in file_name:
                     index = 22222
                     category = 'master'
